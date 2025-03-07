@@ -1,10 +1,10 @@
-# Backend Framework Makefile
+# Volt Makefile
 # This Makefile provides commands for common development tasks
 
 # Variables
 PORT ?= 8080
 GO = go
-APP_NAME = backend-framework
+APP_NAME = volt
 
 # Colors for output
 BLUE = \033[1;34m
@@ -16,7 +16,7 @@ RESET = \033[0m
 
 # Default target - shows help
 help:
-	@echo "Backend Framework Commands:"
+	@echo "Volt Commands:"
 	@echo "run        - Run API server"
 	@echo "generate   - Generate route definitions"
 	@echo "dev        - Run with hot reload (requires Air)"

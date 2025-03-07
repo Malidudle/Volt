@@ -3,8 +3,8 @@ package generator
 import (
 	"net/http"
 
-	exampleRoute "backend-framework/app/example"
-	testRoute "backend-framework/app/test"
+	exampleRoute "volt/app/example"
+	testRoute "volt/app/test"
 )
 
 // RegisteredRoute represents a registered API route with its handler and method

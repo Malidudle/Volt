@@ -1,8 +1,8 @@
-# Backend Framework
+# Volt
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/username/backend-framework)](https://goreportcard.com/report/github.com/username/backend-framework)
+[![Go Report Card](https://goreportcard.com/badge/github.com/username/volt)](https://goreportcard.com/report/github.com/username/volt)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/username/backend-framework)](https://github.com/username/backend-framework)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/username/volt)](https://github.com/username/volt)
 
 A Go-based API framework with automatic route discovery and hot reloading.
 
@@ -18,8 +18,8 @@ A Go-based API framework with automatic route discovery and hot reloading.
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/backend-framework.git
-cd backend-framework
+git clone https://github.com/username/volt.git
+cd volt
 
 # Install dependencies
 go mod download

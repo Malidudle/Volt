@@ -4,9 +4,9 @@ import (
 	"log"
 	"os"
 
-	"backend-framework/pkg/handler"
-	generator "backend-framework/pkg/router"
-	"backend-framework/pkg/server"
+	"volt/pkg/handler"
+	generator "volt/pkg/router"
+	"volt/pkg/server"
 )
 
 func main() {

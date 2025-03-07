@@ -23,7 +23,7 @@ const routesFileTemplate = `package generator
 import (
 	"net/http"
 {{ range .Imports }}
-	{{ .ImportName }} "backend-framework/{{ .PackagePath }}"{{ end }}
+	{{ .ImportName }} "volt/{{ .PackagePath }}"{{ end }}
 )
 
 // RegisteredRoute represents a registered API route with its handler and method

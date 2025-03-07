@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	generator "backend-framework/pkg/router"
+	generator "volt/pkg/router"
 )
 
 func main() {

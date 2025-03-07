@@ -1,6 +1,6 @@
-# Contributing to Backend Framework
+# Contributing to Volt
 
-Thank you for considering contributing to Backend Framework!
+Thank you for considering contributing to Volt!
 
 ## How to Contribute
 
@@ -18,8 +18,8 @@ Set up your development environment:
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR-USERNAME/backend-framework.git
-cd backend-framework
+git clone https://github.com/YOUR-USERNAME/volt.git
+cd volt
 
 # Install Air for hot reloading
 make install-air

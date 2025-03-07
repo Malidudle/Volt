@@ -1,7 +1,7 @@
 #!/bin/bash
 # Development server starter script for Unix-like systems
 
-echo "Running Backend Framework Development Server"
+echo "Running Volt Development Server"
 
 echo "Generating routes..."
 go run cmd/generate/main.go
