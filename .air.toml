@@ -1,0 +1,43 @@
+root = "."
+tmp_dir = "tmp"
+
+[build]
+# Cross-platform build command that works on Windows, macOS, and Linux
+cmd = "go run cmd/generate/main.go && go build -o ./tmp/main ."
+# Use relative paths to improve cross-platform compatibility
+bin = "./tmp/main"
+# Binary arguments
+args_bin = []
+# Only watch Go files
+include_ext = ["go"]
+# Use simple exclusion paths that work on all platforms
+exclude_dir = ["tmp", "vendor", ".git"]
+# Explicitly exclude the routes.go file to prevent infinite rebuild loops
+exclude_file = ["routes.go", "pkg/router/routes.go"]
+# Add pattern to exclude routes.go
+exclude_regex = [".*routes\\.go$"]
+# Increase delay to reduce CPU usage and avoid multiple rebuilds
+delay = 2000
+# Handle rebuild errors gracefully
+stop_on_error = true
+# Send interrupt signal before killing the process
+send_interrupt = true
+# Delay before forcefully killing the process (ms)
+kill_delay = 1000
+
+[env]
+# Set default port, but allow override from command line
+PORT = "8080"
+
+[log]
+time = true
+
+[color]
+main = "magenta"
+watcher = "cyan"
+build = "yellow"
+runner = "green"
+
+[misc]
+# Clean temporary files on exit
+clean_on_exit = true 
