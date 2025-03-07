@@ -1,8 +1,6 @@
 # Volt
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/username/volt)](https://goreportcard.com/report/github.com/username/volt)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/username/volt)](https://github.com/username/volt)
 
 A Go-based API framework with automatic route discovery and hot reloading.
 
