@@ -22,6 +22,9 @@ go.work
 tmp/
 .air.toml.tmp
 
+# Generated files
+pkg/router/routes.go
+
 # OS specific files
 .DS_Store
 Thumbs.db
