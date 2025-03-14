@@ -57,7 +57,7 @@ func (h *APIHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 func validateRoutes(routes []generator.RegisteredRoute) error {
 	for _, route := range routes {
-		if route.Method == "" {
+		if route.Method == nil {
 			return fmt.Errorf("Path '%s' missing HTTP method", route.Path)
 		}
 
